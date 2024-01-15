@@ -1,0 +1,10 @@
+/* only for small devices like mobile  */
+@media screen and (max-width:576px) {
+    header ,main{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .nav-ber{
+        flex-direction: column;
+    }
+}
