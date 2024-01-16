@@ -5,7 +5,7 @@
     padding: 0px;
     font-family: 'Mulish', sans-serif;
 }
-header ,main{
+header ,main ,footer{
     width: 81%;
     max-width: 1170px;
     margin: 0 auto;
@@ -46,7 +46,7 @@ button{
 .modifi-company-name{
     color: #FF5400;
 }
-ul  {
+.nav-ber ul{
     display: flex;
 }
 ul li{
@@ -62,7 +62,7 @@ a {
 .header-banner{
     background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     width: 100%;
-    max-height: 500px;
+    height: 500px;
 }
 /* rgba(255, 255, 255, .30) */
 .banner-title{
@@ -84,34 +84,52 @@ a {
     padding-top: 106px;
 }
 .banner-search{
-    width: 66%;
-    height: 3.8rem;
-    background: rgba(255, 255, 255, 0.458);
+    width: 60%;
+    background: #ffffff48;
     border-radius: 15px;
-    filter: brightness(40%);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    z-index: 999;
+    margin-left: 20%;
 }
-/* .where{
-    width: 23%;
-    height: 3.25rem;
+.Where input{
+    width: 150px;
+    height: 45px;
     background-color: #FFF;
+    border: none;
     border-radius: 10px;
-} */
+    padding-left: 10px;
+}
+.Where select{
+    width: 150px;
+    height: 45px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+.Where button{
+    width: 150px;
+    height: 45px;
+    background-color:#FF5400;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+}
+
 .popular {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    gap: 10px;
+    gap: 40px;
 }
 .popular-text{
-    width: 48%;
+    flex:1
 }
 .popular-img{
-    width: 50%;
+    flex:1
 }
 /* common style start */
 .common-pragraph{
@@ -215,7 +233,7 @@ a {
     width: 64px;
     height: 64px;
 }
-.chose-sub1{
+#chose-sub1{
     margin: auto;
 }
 .chose-container-heading{
@@ -314,6 +332,27 @@ a {
 .perfect-place-img{
     width: 47%;
 }
+
+.review{
+    display: flex;
+    gap: 25px;
+}
+.customer-1{
+    flex: 1;
+}
+.customer-2{
+    flex: 1;
+}
+.customer-1 .img1{
+    width: 100%;
+    height: 300px;
+}
+.customer-2 .img2{
+    width: 100%;
+    height: 300px;
+}
+
+
 /* start newsletter  section */
 .newsletter{
     display: flex;
@@ -388,3 +427,27 @@ a {
     left: 49%;
 }
 /* end newsletter  section */
+
+.footer-section .logo{
+    display: flex;
+    width: 13%;
+    height: 80px;
+    /* align-items: center; */
+    padding: 10px;
+    margin: 0 auto;
+}
+.footer-section{
+    margin: 50px auto;
+}
+.footer-section .common-pragraph{
+    width: 60%;
+    margin: 30px auto;
+}
+.footer-icons {
+    margin: 30px auto;
+    width: 100%;
+    padding-left: 520px;
+}
+.copyright{
+    margin-left: 300px;
+}
