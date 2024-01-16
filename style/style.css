@@ -24,10 +24,16 @@ img{
 }
 .logo{
     display: flex;
-    width: 90px;
-    height: 50px;
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem;
     /* border: 1px solid blue; */
-
+}
+.modifi-ul{
+    color: #FF5400;
+    font-weight: 700;
 }
 button{
     cursor: pointer;
@@ -53,14 +59,10 @@ a {
     font-size: 1.12rem;
     font-weight: 400;
 }
-.header-img{
-    width: 100%;
-    position: relative;
-}
 .header-banner{
     background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     width: 100%;
-    height: 500px;
+    max-height: 500px;
 }
 /* rgba(255, 255, 255, .30) */
 .banner-title{
@@ -84,8 +86,7 @@ a {
 .banner-search{
     width: 66%;
     height: 3.8rem;
-    background-color: rgba(248, 248, 248, 0.298);
-    justify-content: center;
+    background: rgba(255, 255, 255, 0.458);
     border-radius: 15px;
     filter: brightness(40%);
     display: flex;
@@ -93,27 +94,24 @@ a {
     align-items: center;
     gap: 10px;
 }
-.where{
+/* .where{
     width: 23%;
     height: 3.25rem;
     background-color: #FFF;
     border-radius: 10px;
-}
+} */
 .popular {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    gap: 10px;
 }
 .popular-text{
     width: 48%;
 }
 .popular-img{
     width: 50%;
-}
-.popular-text >ul{
-    display: block;
-    list-style: disc;
 }
 /* common style start */
 .common-pragraph{
@@ -128,13 +126,13 @@ a {
     font-weight: 800;
 }
 .brn-primery{
-    width: 174px;
-    height: 52px;
+    width: 8.75rem;
+    height: 2.81rem;
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 800;
     border: none;
 }
@@ -192,6 +190,13 @@ a {
     bottom: 45%;
     left: 40%;
 }
+/* chose section start */
+.choose-header-text{
+    width: 60%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
 .chose-container{
     display: flex;
     justify-content: space-between;
@@ -200,34 +205,73 @@ a {
 }
 .chose-sub{
     width: 47%;
-    height: 284px;
+    height: auto;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 30px;
 }
+.chose-sub-img{
+    width: 64px;
+    height: 64px;
+}
 .chose-sub1{
-    justify-content: center;
+    margin: auto;
 }
 .chose-container-heading{
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+    margin-top: 26px;
 }
+/* chose section end */
+
+.discounts-heading-text{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: 50px auto;
+}
+
 .discount-item{
-    width: 1170px;
-    height: 500px;
-    border-radius: 16px;
+    width: 100%;
+    height: 31rem;
+    border-radius: 1rem;
     background-image: url("../Images/Group\ 39.png");
+    margin-bottom: 25px;
+}
+.discount-item-style-icone{
+    display: inline;
+    padding: 30px;
+}
+.discount-item-style-icone i{
+    color: #FF5400;
+    margin-top: 30px;
+}
+.discount-itemk-price{
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.discount-item-style-priceing{
+    padding-left: 30px;
+    
 }
 .discount-item-style{
-    width: 579px;
-    height: 389px;
-    border-radius: 16px;
+    width: 45%;
+    height: 24rem;
+    border-radius: 1rem;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
-    margin-left: 535px;
+    margin-left: 50%;
+}
+.discount-item-style-button{
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.discount-item-style-heading{
+    padding: 30px;
 }
 .different-margin{
     margin-left: 50px;
@@ -235,3 +279,112 @@ a {
 .different-img{
     background-image: url("../Images/Group\ 40.png");
 }
+.discount-item-style1{
+    margin-left: 5%;
+}
+.brn-1{
+    width: 13rem;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+}
+    /* discount-item-style-last-button-section */
+/* .button-position{
+    display: block;
+    align-items: center;
+} */
+
+/* A Simple Perfect Place To Get Lost section start */
+.perfect-place-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.perfect-place-text{
+    width: 47%;
+}
+.perfect-place-tex > ul{
+    
+}
+.perfect-place-img{
+    width: 47%;
+}
+/* start newsletter  section */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.news-text{
+    width: 35%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 422px;
+}
+.news-img{
+    width: 60%;
+    position: relative;
+}
+.news-heading-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.news-heading{
+    padding: 30px;
+}
+.news-input{
+    display: block;
+    padding: 30px;
+    
+    
+}
+.news-input >input{
+    width: 90.5%;
+    height: 2rem;
+    padding: 10px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.form-btn{
+    width: 97%;
+    height: 2rem;
+    border: none;
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.offer-title{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.offer-dis{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.offer{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    bottom: 15%;
+    left: 49%;
+}
+/* end newsletter  section */
