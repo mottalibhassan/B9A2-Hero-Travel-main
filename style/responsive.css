@@ -130,17 +130,10 @@
         font-size: 0.94rem;
     }
     .offer{
-        width: 14rem;
+        width: 50%;
         height: 5rem;
         bottom: 15%;
         left: 49%;
     }
-    /* .footer-icons {
-        margin: 1.88rem auto;
-        width: 100%;
-        padding-left: 14rem;
-    }
-    .copyright{
-        margin-left: 6.25rem;
-    } */
+    
 }
