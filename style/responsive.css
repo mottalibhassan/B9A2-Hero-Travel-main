@@ -3,39 +3,49 @@
     header ,main ,footer{
         width: 90%;
         margin: 0 auto;
+        height: 100%;
     }
     .nav-ber{
         flex-direction: column;
+    }
+    ul li{
+        margin-left: 5px;
     }
     .header-banner{
         width: 100%;
         height: auto;
     }
     .banner-title{
-        font-size: 1.38rem;
+        font-size: 1rem;
     }
     .banner-discription{
-        font-size: 0.88rem;
-        line-height: 1.32rem;
+        font-size: 0.68rem;
+        line-height: 1rem;
+    }
+    .banner-text{
+        padding-top: 40px;
+        width: 80%;
     }
     .banner-search{
-        width: 17.94rem;
-        padding: 1rem;
+        width: 80%;
+        padding: 0.5rem;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        margin: 0 auto;
     }
     .Where input {
-        width: 15.94rem;
+        width: 85%;
         height: 3.25rem;
         margin-bottom: 5px;
+        
     }
     .Where select{
-        width: 16.57rem;
+        width: 90%;
         height: 3.25rem;
         margin-bottom: 5px;
     }
     .Where button{
-        width: 16.67rem;
+        width: 90%;
         height: 3.25rem;
         margin-bottom: 5px;
     }
@@ -143,5 +153,9 @@
         bottom: 15%;
         left: 49%;
     }
+    .footer-section{
+        margin: 30px auto;
+    }
+    
     
 }
